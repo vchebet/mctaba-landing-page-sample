@@ -30,6 +30,16 @@ body {
   
 }
 
+.container {
+display: flex;
+}
+.container div {
+margin: 10px;
+padding: 20px;
+font-size: 24px;
+border-radius: 20px;
+}
+
 
 .main-nav{
   
@@ -57,10 +67,12 @@ header{
   border-radius: 50px;
 }
 .highlight{
-  color: blue;
+  color: rgb(15, 15, 179);
+  
 }
 .button:hover {
     background-color: rgb(42, 142, 205)
+    
     
 }
 .buttons{
@@ -79,4 +91,10 @@ header{
     list-style: none;
     gap: 1rem;
     color: rgb(15, 81, 30)
+}
+.btn {
+  background-color: aliceblue;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 10px;
 }
